@@ -47,10 +47,6 @@ npm install
 npm run dev
 ```
 
-3. Build CSS:
-```bash
-npm run build:css
-```
 
 ## Backend Integration Requirements
 ### API Endpoints Needed:
