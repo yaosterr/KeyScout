@@ -1,0 +1,32 @@
+{
+  "name": "keyscout",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:css": "tailwindcss -i ./src/index.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "@marsidev/react-turnstile": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6",
+    "react-helmet-async": "^2.0.5",
+    "react-hook-form": "^7.54.2",
+    "react-router-dom": "^6.22.0",
+    "rsuite": "^5.77.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "sass": "^1.77.6",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.1.6"
+  }
+}
